@@ -1,0 +1,20 @@
+@media only screen and (max-width : 1400px) {
+#nav-wrapper { display:block; }
+#mobile-menu { display:none; }
+#slick-mobile-menu { display:none; }
+}
+@media only screen and (min-width: 942px) and (max-width: 1170px) {
+#nav-wrapper { display:none; }
+#mobile-menu { display:block; }
+#slick-mobile-menu { display:block; }
+}
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+#nav-wrapper { display:none; }
+#mobile-menu { display:block; }
+#slick-mobile-menu { display:block; }
+}
+@media only screen and (max-width: 767px) {
+#nav-wrapper { display:none; }
+#mobile-menu { display:block; }
+#slick-mobile-menu { display:block; }
+}
